@@ -1,4 +1,4 @@
-onst Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "$";
 client.on("message", message => {
@@ -23,7 +23,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help`)
+client.user.setGame(`$help | shieldbot`)
 client.user.setStatus("online")
 });
 
